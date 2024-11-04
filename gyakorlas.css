@@ -1,0 +1,90 @@
+body{
+	background-color:red;
+	margin: 0px;
+}
+
+.header{
+	height:400px;
+	/* background-repeat:no-repeat; */ /*(no-)repeat - (nem) ismétli a képet*/
+	background-size: contain; /*szélességét*/
+	/* background-size: cover; */ /*maggasságát*/
+	background-attachment: fixed;
+	font-family:cursive;
+}
+
+.hatter1{
+	background-image: url("kepek/hatter2.JFIF");	
+}
+.hatter2{
+	background-image: url("kepek/hatter3.jpg");
+}
+
+.header p{
+	margin: 0px;
+	text-align:center;
+	font-size: 40px;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	letter-spacing: 5px;
+	padding-top: 100px;
+}
+
+
+.masodik_blokk{
+	height:400px;
+}
+
+
+.feher-hatteres{
+	background-color:#EE7A7A;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+.szoveg-kep{
+	background-color: #52ABF5;
+	width: 50%;
+	height: 100%;
+	
+}
+
+.feher-hatteres img{
+	/*width: 30%;	*/
+	height: 70%;
+	position: relative;
+	top: 15%; 
+}
+
+.szoveg-kep-belso{
+	/* .szoveg-kep-belso */
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	position:relative;
+	top: 10%;
+	padding: 10px;
+	text-align: center;
+	font-family: fantasy;
+	scroll: visible;
+	line-height:18px;
+}
+
+.szoveg-kep-belso img{
+	height: 50%;
+}
+
+.szoveg-kep-belso p{
+	text-align: left;
+}
+
+h2{
+	margin-top:0;
+}
+
+.bal{
+	float: left;
+}
+
+.jobb{
+	float: right;
+}

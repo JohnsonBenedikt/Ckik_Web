@@ -1,0 +1,39 @@
+caption{
+	background-color: #caa6ea;
+	color: white;
+	font-family: cursive;s
+}
+
+tr{
+	background-color:#0ba5c7;
+	color: white;
+	font-family: cursive;
+}
+
+#cim{
+	text-align: center;
+	font-family:cursive;
+	background-color: #caa6ea;
+	font-weight: bold;
+	color: white;
+}
+
+body{
+	background-color: #0f1023;
+}
+li{
+	color:white;
+}
+
+
+
+img{
+	  float: right; 
+      margin-right: 20px; 
+      width: 300px; 
+    }
+
+h2{
+	color:white;
+	font-family: cursive;
+}
